@@ -3,7 +3,7 @@
 namespace Osiset\ShopifyApp\Test\Storage\Queries;
 
 use Osiset\ShopifyApp\Contracts\Queries\Plan as IPlanQuery;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
+use Osiset\ShopifyApp\Values\PlanId;
 use Osiset\ShopifyApp\Storage\Models\Plan;
 use Osiset\ShopifyApp\Test\TestCase;
 

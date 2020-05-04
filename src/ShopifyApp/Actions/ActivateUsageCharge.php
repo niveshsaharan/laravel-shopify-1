@@ -3,16 +3,16 @@
 namespace Osiset\ShopifyApp\Actions;
 
 use Illuminate\Support\Carbon;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\ShopId;
 use Osiset\ShopifyApp\Services\ChargeHelper;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
+use Osiset\ShopifyApp\Values\ChargeId;
+use Osiset\ShopifyApp\Enums\ChargeType;
+use Osiset\ShopifyApp\Values\ChargeReference;
 use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
 use Osiset\ShopifyApp\Exceptions\ChargeNotRecurringException;
 use Osiset\ShopifyApp\Contracts\Commands\Charge as IChargeCommand;
-use Osiset\ShopifyApp\Objects\Transfers\UsageCharge as UsageChargeTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
+use Osiset\ShopifyApp\Transfers\UsageCharge as UsageChargeTransfer;
+use Osiset\ShopifyApp\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
 
 /**
  * Activates a usage charge for a shop.

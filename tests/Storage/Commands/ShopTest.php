@@ -3,10 +3,10 @@
 namespace Osiset\ShopifyApp\Test\Storage\Commands;
 
 use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
-use Osiset\ShopifyApp\Objects\Values\AccessToken;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\AccessToken;
+use Osiset\ShopifyApp\Values\PlanId;
+use Osiset\ShopifyApp\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\ShopId;
 use Osiset\ShopifyApp\Test\TestCase;
 
 class ShopTest extends TestCase

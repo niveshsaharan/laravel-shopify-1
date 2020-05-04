@@ -6,7 +6,7 @@ use Osiset\ShopifyApp\Test\TestCase;
 use Osiset\ShopifyApp\Storage\Models\Plan;
 use Osiset\ShopifyApp\Actions\CancelCharge;
 use Osiset\ShopifyApp\Exceptions\ChargeNotRecurringOrOnetimeException;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
+use Osiset\ShopifyApp\Values\ChargeReference;
 use Osiset\ShopifyApp\Storage\Models\Charge;
 
 class CancelChargeTest extends TestCase

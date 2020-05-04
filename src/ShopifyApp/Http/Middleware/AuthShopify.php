@@ -7,12 +7,12 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Redirect;
 use Osiset\ShopifyApp\Services\ShopSession;
-use Osiset\ShopifyApp\Objects\Enums\DataSource;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\NullShopDomain;
+use Osiset\ShopifyApp\Enums\DataSource;
+use Osiset\ShopifyApp\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\NullShopDomain;
 use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
 use Osiset\ShopifyApp\Exceptions\SignatureVerificationException;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Osiset\ShopifyApp\Contracts\ShopDomain as ShopDomainValue;
 
 /**
  * Response for ensuring an authenticated request.

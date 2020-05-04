@@ -3,13 +3,13 @@
 namespace Osiset\ShopifyApp\Contracts;
 
 use Osiset\BasicShopifyAPI;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\ShopId;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
+use Osiset\ShopifyApp\Contracts\ShopDomain as ShopDomainValue;
+use Osiset\ShopifyApp\Contracts\AccessToken as AccessTokenValue;
 
 /**
  * Reprecents the shop model.

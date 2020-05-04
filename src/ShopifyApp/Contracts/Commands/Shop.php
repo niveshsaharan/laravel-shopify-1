@@ -2,10 +2,10 @@
 
 namespace Osiset\ShopifyApp\Contracts\Commands;
 
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId as PlanIdValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Contracts\AccessToken as AccessTokenValue;
+use Osiset\ShopifyApp\Contracts\PlanId as PlanIdValue;
+use Osiset\ShopifyApp\Contracts\ShopDomain as ShopDomainValue;
+use Osiset\ShopifyApp\Values\ShopId;
 
 /**
  * Reprecents commands for shops.

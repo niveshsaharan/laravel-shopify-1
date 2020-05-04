@@ -3,12 +3,12 @@
 namespace Osiset\ShopifyApp\Storage\Commands;
 
 use Osiset\ShopifyApp\Contracts\Commands\Shop as ShopCommand;
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId as PlanIdValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
+use Osiset\ShopifyApp\Contracts\AccessToken as AccessTokenValue;
+use Osiset\ShopifyApp\Contracts\PlanId as PlanIdValue;
+use Osiset\ShopifyApp\Contracts\ShopDomain as ShopDomainValue;
 use Osiset\ShopifyApp\Contracts\Queries\Shop as ShopQuery;
 use Osiset\ShopifyApp\Contracts\ShopModel;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\ShopId;
 use Osiset\ShopifyApp\Traits\ConfigAccessible;
 
 /**

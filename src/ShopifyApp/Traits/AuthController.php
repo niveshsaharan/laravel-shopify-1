@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Redirect;
 use Osiset\ShopifyApp\Actions\AuthorizeShop;
 use Illuminate\Contracts\View\View as ViewView;
 use Osiset\ShopifyApp\Actions\AuthenticateShop;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\ShopDomain;
 
 /**
  * Responsible for authenticating the shop.

@@ -3,8 +3,8 @@
 namespace Osiset\ShopifyApp\Test\Storage\Queries;
 
 use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\ShopId;
 use Osiset\ShopifyApp\Test\TestCase;
 
 class ShopTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace Osiset\ShopifyApp\Objects\Transfers;
+namespace Osiset\ShopifyApp\Values;
 
 use Exception;
 use Osiset\ShopifyApp\Test\TestCase;

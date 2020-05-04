@@ -3,8 +3,8 @@
 namespace Osiset\ShopifyApp\Test\Services;
 
 use Illuminate\Support\Carbon;
-use Osiset\ShopifyApp\Objects\Enums\ChargeStatus;
-use Osiset\ShopifyApp\Objects\Transfers\PlanDetails;
+use Osiset\ShopifyApp\Enums\ChargeStatus;
+use Osiset\ShopifyApp\Transfers\PlanDetails;
 use Osiset\ShopifyApp\Test\TestCase;
 use Osiset\ShopifyApp\Storage\Models\Plan;
 use Osiset\ShopifyApp\Services\ChargeHelper;

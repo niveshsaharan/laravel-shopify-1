@@ -3,10 +3,10 @@
 namespace Osiset\ShopifyApp\Test\Storage\Queries;
 
 use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\ShopId;
 use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
+use Osiset\ShopifyApp\Values\ChargeId;
+use Osiset\ShopifyApp\Values\ChargeReference;
 use Osiset\ShopifyApp\Contracts\Queries\Charge as IChargeQuery;
 
 class ChargeTest extends TestCase

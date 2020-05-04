@@ -5,10 +5,10 @@ namespace Osiset\ShopifyApp\Test\Traits;
 use Osiset\BasicShopifyAPI;
 use Osiset\ShopifyApp\Test\TestCase;
 use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\ShopId;
 use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken;
+use Osiset\ShopifyApp\Contracts\ShopDomain;
+use Osiset\ShopifyApp\Contracts\AccessToken;
 
 class ShopModelTest extends TestCase
 {

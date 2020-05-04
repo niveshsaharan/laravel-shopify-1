@@ -9,13 +9,13 @@ use Illuminate\Support\Facades\Redirect;
 use Osiset\ShopifyApp\Actions\GetPlanUrl;
 use Osiset\ShopifyApp\Actions\ActivatePlan;
 use Osiset\ShopifyApp\Services\ShopSession;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
+use Osiset\ShopifyApp\Values\PlanId;
 use Illuminate\Contracts\View\View as ViewView;
 use Osiset\ShopifyApp\Actions\ActivateUsageCharge;
-use Osiset\ShopifyApp\Objects\Values\NullablePlanId;
+use Osiset\ShopifyApp\Values\NullablePlanId;
 use Osiset\ShopifyApp\Http\Requests\StoreUsageCharge;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
+use Osiset\ShopifyApp\Values\ChargeReference;
+use Osiset\ShopifyApp\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
 
 /**
  * Responsible for billing a shop for plans and usage charges.

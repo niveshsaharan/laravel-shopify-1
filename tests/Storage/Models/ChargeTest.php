@@ -4,11 +4,11 @@ namespace Osiset\ShopifyApp\Test\Storage\Models;
 
 use Osiset\ShopifyApp\Test\TestCase;
 use Osiset\ShopifyApp\Storage\Models\Charge;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
+use Osiset\ShopifyApp\Values\ChargeId;
+use Osiset\ShopifyApp\Enums\ChargeType;
+use Osiset\ShopifyApp\Values\ChargeReference;
 use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
-use Osiset\ShopifyApp\Objects\Enums\ChargeStatus;
+use Osiset\ShopifyApp\Enums\ChargeStatus;
 
 class ChargeTest extends TestCase
 {

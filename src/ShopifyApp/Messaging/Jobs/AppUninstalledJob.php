@@ -9,7 +9,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Osiset\ShopifyApp\Actions\CancelCurrentPlan;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain;
+use Osiset\ShopifyApp\Contracts\ShopDomain;
 use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
 use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
 

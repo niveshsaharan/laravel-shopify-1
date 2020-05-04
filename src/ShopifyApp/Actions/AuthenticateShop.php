@@ -7,7 +7,7 @@ use Osiset\ShopifyApp\Services\ShopSession;
 use Osiset\ShopifyApp\Actions\AfterAuthorize;
 use Osiset\ShopifyApp\Actions\DispatchScripts;
 use Osiset\ShopifyApp\Actions\DispatchWebhooks;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\ShopDomain;
 use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
 
 /**

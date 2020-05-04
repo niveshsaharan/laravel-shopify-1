@@ -5,8 +5,8 @@ namespace Osiset\ShopifyApp\Test\Actions;
 use Osiset\ShopifyApp\Test\TestCase;
 use Osiset\ShopifyApp\Storage\Models\Plan;
 use Osiset\ShopifyApp\Actions\ActivatePlan;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
+use Osiset\ShopifyApp\Values\ChargeId;
+use Osiset\ShopifyApp\Values\ChargeReference;
 use Osiset\ShopifyApp\Storage\Models\Charge;
 use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
 

@@ -2,7 +2,7 @@
 
 namespace Osiset\ShopifyApp\Actions;
 
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\ShopId;
 use Osiset\ShopifyApp\Traits\ConfigAccessible;
 use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
 

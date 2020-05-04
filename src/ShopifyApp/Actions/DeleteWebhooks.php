@@ -3,7 +3,7 @@
 namespace Osiset\ShopifyApp\Actions;
 
 use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
+use Osiset\ShopifyApp\Values\ShopId;
 
 /**
  * Delete webhooks for this app on the shop.

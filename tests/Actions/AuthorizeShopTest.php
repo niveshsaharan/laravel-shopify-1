@@ -4,7 +4,7 @@ namespace Osiset\ShopifyApp\Test\Actions;
 
 use Osiset\ShopifyApp\Test\TestCase;
 use Osiset\ShopifyApp\Actions\AuthorizeShop;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\ShopDomain;
 use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
 
 class AuthorizeShopTest extends TestCase

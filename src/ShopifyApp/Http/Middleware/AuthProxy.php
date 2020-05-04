@@ -9,9 +9,9 @@ use function Osiset\ShopifyApp\createHmac;
 use function Osiset\ShopifyApp\parseQueryString;
 use Osiset\ShopifyApp\Services\ShopSession;
 use Osiset\ShopifyApp\Traits\ConfigAccessible;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\NullShopDomain;
-use Osiset\ShopifyApp\Objects\Values\NullableShopDomain;
+use Osiset\ShopifyApp\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\NullShopDomain;
+use Osiset\ShopifyApp\Values\NullableShopDomain;
 
 /**
  * Responsible for ensuring a proper app proxy request.

@@ -7,9 +7,9 @@ use Osiset\ShopifyApp\Storage\Models\Plan;
 use Osiset\ShopifyApp\Storage\Models\Charge;
 use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
 use Osiset\ShopifyApp\Actions\ActivateUsageCharge;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails;
+use Osiset\ShopifyApp\Transfers\UsageChargeDetails;
 use Osiset\ShopifyApp\Exceptions\ChargeNotRecurringException;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
+use Osiset\ShopifyApp\Values\ChargeId;
 
 class ActivateUsageChargeTest extends TestCase
 {

@@ -5,12 +5,12 @@ namespace Osiset\ShopifyApp\Contracts;
 use stdClass;
 use Osiset\BasicShopifyAPI;
 use GuzzleHttp\Exception\RequestException;
-use Osiset\ShopifyApp\Objects\Enums\AuthMode;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
-use Osiset\ShopifyApp\Objects\Transfers\PlanDetails;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails;
-use Osiset\ShopifyApp\Objects\Transfers\ApiSession as ApiSessionTransfer;
+use Osiset\ShopifyApp\Enums\AuthMode;
+use Osiset\ShopifyApp\Enums\ChargeType;
+use Osiset\ShopifyApp\Transfers\PlanDetails;
+use Osiset\ShopifyApp\Values\ChargeReference;
+use Osiset\ShopifyApp\Transfers\UsageChargeDetails;
+use Osiset\ShopifyApp\Transfers\ApiSession as ApiSessionTransfer;
 
 /**
  * Reprecents the API helper.

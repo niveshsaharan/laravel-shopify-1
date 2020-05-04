@@ -4,14 +4,14 @@ namespace Osiset\ShopifyApp\Test\Services;
 
 use Osiset\BasicShopifyAPI;
 use Osiset\ShopifyApp\Test\TestCase;
-use Osiset\ShopifyApp\Objects\Enums\AuthMode;
+use Osiset\ShopifyApp\Enums\AuthMode;
 use Osiset\ShopifyApp\Exceptions\ApiException;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
+use Osiset\ShopifyApp\Values\ChargeReference;
+use Osiset\ShopifyApp\Enums\ChargeType;
 use Osiset\ShopifyApp\Test\Stubs\Api as ApiStub;
 use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
-use Osiset\ShopifyApp\Objects\Transfers\PlanDetails as PlanDetailsTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
+use Osiset\ShopifyApp\Transfers\PlanDetails as PlanDetailsTransfer;
+use Osiset\ShopifyApp\Transfers\UsageChargeDetails as UsageChargeDetailsTransfer;
 
 class ApiHelperTest extends TestCase
 {

@@ -5,7 +5,7 @@ namespace Osiset\ShopifyApp\Traits;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response as ResponseResponse;
 use Illuminate\Support\Facades\Response;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\ShopDomain;
 
 /**
  * Responsible for handling incoming webhook requests.

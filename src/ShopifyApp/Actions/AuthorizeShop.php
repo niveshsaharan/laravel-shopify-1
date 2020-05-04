@@ -4,10 +4,10 @@ namespace Osiset\ShopifyApp\Actions;
 
 use stdClass;
 use Osiset\ShopifyApp\Services\ShopSession;
-use Osiset\ShopifyApp\Objects\Enums\AuthMode;
+use Osiset\ShopifyApp\EnumsAuthMode;
 use Osiset\ShopifyApp\Traits\ConfigAccessible;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\NullAccessToken;
+use Osiset\ShopifyApp\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\NullAccessToken;
 use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
 use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
 

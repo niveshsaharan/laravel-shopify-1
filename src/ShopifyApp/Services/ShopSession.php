@@ -7,17 +7,17 @@ use Osiset\BasicShopifyAPI;
 use Illuminate\Auth\AuthManager;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Session;
-use Osiset\ShopifyApp\Objects\Enums\AuthMode;
+use Osiset\ShopifyApp\Enums\AuthMode;
 use Osiset\ShopifyApp\Traits\ConfigAccessible;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
-use Osiset\ShopifyApp\Objects\Values\AccessToken;
+use Osiset\ShopifyApp\Values\ShopDomain;
+use Osiset\ShopifyApp\Values\AccessToken;
 use Osiset\ShopifyApp\Contracts\ApiHelper as IApiHelper;
 use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
-use Osiset\ShopifyApp\Objects\Values\NullableAccessToken;
+use Osiset\ShopifyApp\Values\NullableAccessToken;
 use Osiset\ShopifyApp\Contracts\Queries\Shop as IShopQuery;
 use Osiset\ShopifyApp\Contracts\Commands\Shop as IShopCommand;
-use Osiset\ShopifyApp\Contracts\Objects\Values\ShopDomain as ShopDomainValue;
-use Osiset\ShopifyApp\Contracts\Objects\Values\AccessToken as AccessTokenValue;
+use Osiset\ShopifyApp\Contracts\ShopDomain as ShopDomainValue;
+use Osiset\ShopifyApp\Contracts\AccessToken as AccessTokenValue;
 
 /**
  * Responsible for handling session retreival and storage.

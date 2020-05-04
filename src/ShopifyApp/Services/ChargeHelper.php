@@ -5,13 +5,13 @@ namespace Osiset\ShopifyApp\Services;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\URL;
 use Osiset\ShopifyApp\Storage\Models\Plan;
-use Osiset\ShopifyApp\Objects\Values\PlanId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Enums\ChargeType;
+use Osiset\ShopifyApp\Values\PlanId;
+use Osiset\ShopifyApp\Values\ChargeReference;
+use Osiset\ShopifyApp\Enums\ChargeType;
 use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
 use Osiset\ShopifyApp\Storage\Models\Charge as ChargeModel;
 use Osiset\ShopifyApp\Contracts\Queries\Charge as IChargeQuery;
-use Osiset\ShopifyApp\Objects\Transfers\PlanDetails as PlanDetailsTransfer;
+use Osiset\ShopifyApp\Transfers\PlanDetails as PlanDetailsTransfer;
 use Osiset\ShopifyApp\Traits\ConfigAccessible;
 
 /**

@@ -4,8 +4,8 @@ namespace Osiset\ShopifyApp\Test\Services;
 
 use Osiset\ShopifyApp\Test\TestCase;
 use Osiset\ShopifyApp\Services\ShopSession;
-use Osiset\ShopifyApp\Objects\Enums\AuthMode;
-use Osiset\ShopifyApp\Objects\Values\ShopDomain;
+use Osiset\ShopifyApp\Enums\AuthMode;
+use Osiset\ShopifyApp\Values\ShopDomain;
 
 class ShopSessionTest extends TestCase
 {

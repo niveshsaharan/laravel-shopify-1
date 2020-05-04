@@ -3,11 +3,11 @@
 namespace Osiset\ShopifyApp\Contracts\Commands;
 
 use Illuminate\Support\Carbon as Carbon;
-use Osiset\ShopifyApp\Objects\Values\ShopId;
-use Osiset\ShopifyApp\Objects\Values\ChargeId;
-use Osiset\ShopifyApp\Objects\Values\ChargeReference;
-use Osiset\ShopifyApp\Objects\Transfers\Charge as ChargeTransfer;
-use Osiset\ShopifyApp\Objects\Transfers\UsageCharge as UsageChargeTransfer;
+use Osiset\ShopifyApp\Values\ShopId;
+use Osiset\ShopifyApp\Values\ChargeId;
+use Osiset\ShopifyApp\Values\ChargeReference;
+use Osiset\ShopifyApp\Transfers\Charge as ChargeTransfer;
+use Osiset\ShopifyApp\Transfers\UsageCharge as UsageChargeTransfer;
 
 /**
  * Reprecents commands for charges.

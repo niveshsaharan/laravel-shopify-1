@@ -3,7 +3,7 @@
 namespace Osiset\ShopifyApp\Storage\Queries;
 
 use Illuminate\Support\Collection;
-use Osiset\ShopifyApp\Contracts\Objects\Values\PlanId;
+use Osiset\ShopifyApp\Contracts\PlanId;
 use Osiset\ShopifyApp\Contracts\Queries\Plan as IPlanQuery;
 use Osiset\ShopifyApp\Storage\Models\Plan as PlanModel;
 
